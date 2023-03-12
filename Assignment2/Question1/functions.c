@@ -64,7 +64,7 @@ void set_initial_guess(int nx, int ny, double *xc, double *yc, double **T)
       T[i][j] = 1e-6;
   
 }
-
+  
 void calc_diffusivity(int nx, int ny, double *xc, double *yc, double **T, double **kdiff)
 {
   int i, j;
